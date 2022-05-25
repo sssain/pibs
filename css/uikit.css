@@ -1989,6 +1989,7 @@ select.uk-form-width-xsmall {
   border: 1px solid #171717;
   border-radius: 5px;
   font-weight: 600;
+  padding: 0 20px;
 }
 /* Hover */
 .uk-button-secondary:hover {
@@ -2008,6 +2009,8 @@ select.uk-form-width-xsmall {
   background-color: #f8f8f8;
   color: #171717;
   border-radius: 5px;
+  padding: 0 15px;
+
 }
 /* Hover */
 .uk-button-danger:hover {
@@ -2017,8 +2020,8 @@ select.uk-form-width-xsmall {
 /* OnClick + Active */
 .uk-button-danger:active,
 .uk-button-danger.uk-active {
-  background-color: #ec2147;
-  color: #fff;
+  background-color: #ebeaea;
+  color: #171717;
 }
 /*
  * Disabled
@@ -5139,7 +5142,7 @@ ul.uk-nav-sub {
   /* 3 */
   box-sizing: border-box;
   min-height: 80px;
-  padding: 0 15px;
+  padding: 0 5px;
   /* 4 */
   font-size: 0.875rem;
   font-family: Poppins;
