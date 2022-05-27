@@ -3551,12 +3551,12 @@ select.uk-form-width-xsmall {
  * Items
  */
 .uk-dropdown-nav > li > a {
-  color: #999;
+  color: #171717;
 }
 /* Hover + Active */
 .uk-dropdown-nav > li > a:hover,
 .uk-dropdown-nav > li.uk-active > a {
-  color: #666;
+  color: #171717;
 }
 /*
  * Header
@@ -5229,8 +5229,9 @@ ul.uk-nav-sub {
   max-width: 100vw;
   /* 4 */
   padding: 25px;
-  background: #fff;
-  color: #666;
+  border-radius: 10px;
+  background: #171717;
+  color: #ededed;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
 /* Show */
@@ -5290,20 +5291,21 @@ ul.uk-nav-sub {
  ========================================================================== */
 .uk-navbar-dropdown-nav {
   font-size: 0.875rem;
+
 }
 /*
  * Items
  */
 .uk-navbar-dropdown-nav > li > a {
-  color: #999;
+  color: #ededed;
 }
 /* Hover */
 .uk-navbar-dropdown-nav > li > a:hover {
-  color: #666;
+  color: #d8d4d4;
 }
 /* Active */
 .uk-navbar-dropdown-nav > li.uk-active > a {
-  color: #333;
+  color: #ededed;
 }
 /*
  * Header
