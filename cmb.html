@@ -5,9 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cara Meminjam Buku</title>
+    <link rel="stylesheet" href="css/uikit.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <h1>Gatau cara minjem buku hehe ☝️😅</h1>
+    <div class="uk-visible@m ">
+        <nav class="uk-navbar-container" uk-sticky uk-navbar>
+            <div class="uk-navbar-left uk-margin-small-top uk-margin-small-left uk-margin-small-bottom">
+        
+                <a class="uk-navbar-item uk-logo " href="index.html">
+                    <img src="../assets/alki.png" alt="" style="width: 280px;">
+                </a>
+            </div>
+            <div class="uk-navbar-right uk-margin-small-right ">     
+                    <div class="uk-navbar-item ">
+                        <div>
+                            <a href="profil.html" class="uk-button uk-button-danger uk-text-capitalize" style="font-weight: 500;" >Profil</a>
+                        </div>  
+                    </div>
+                    <div class="uk-navbar-item ">
+                        <div>
+                            <a href="index.html#rekomendasi" class="uk-button uk-button-danger uk-text-capitalize" style="font-weight: 500;">Rekomendasi</a>
+                        </div>
+                        <br>
     
+                        <div class="uk-navbar-item">
+                            <a href="#" class="uk-button uk-button-danger uk-text-capitalize" style="font-weight: 500;">informasi <span uk-icon="icon: chevron-down;"></span></a>
+                            <div class="uk-navbar-dropdown" uk-dropdown="mode: click">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-button uk-button-text uk-text-capitalize"><a href="../cmb.html" class="uk-text-left">Cara Meminjam Buku</a></li><br>
+                                    <li class="uk-button uk-button-text uk-text-capitalize"><a href="jadwal.html" >Jadwal Pepustakaan</a></li><br>
+                                </ul>
+                            </div>
+                            <br>
+                        </div>
+    
+                        <div class="uk-navbar-item ">
+                            <div>
+                                <a href="https://www.instagram.com/sahabatperpusalki/" class="uk-button uk-button-secondary uk-text-capitalize" style="font-weight: 500;">Sahabat Perpus</a>
+                            </div>
+        
+                            
+            
+                        </div>
+        
+                    </div>
+                    
+            </div> 
+                </div>    
+            </div>
+        </nav>
+    </div>
+    <!-- Navigation Ends -->
+    
+    <!-- Hamburger Menu (mobile) -->
+    <div class="uk-hidden@m">
+        <nav class="uk-navbar uk-navbar-container uk-margin uk-navbar-transparent">
+            <div class="uk-navbar-left uk-margin-small-top uk-margin-medium-left uk-margin-medium-right">
+                <a href="#">
+                    <img src="assets/alki.png" alt="" style="width: 200px;">
+                </a>
+            </div>
+            <div class="uk-navbar-right uk-margin-medium-right">
+                <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary"></button>
+            </div>
+        </nav>
+    </div>
+    <!-- Hamburger Menu Ends -->
+    
+    <!-- SideBar (for mobile) -->
+    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column uk-background-primary">
+    
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-button-text"><a class="uk-text-danger" href="#">Home</a></li>
+                <li class="uk-button-text"><a class="uk-text-danger" href="profil.html">Profil</a></li>
+                <li class="uk-button-text"><a class="uk-text-danger" href="index.html#rekomendasi">Rekomendasi</a></li>
+                <li class="uk-button-text"><a class="uk-text-danger" href="">Informasi  <span uk-icon="icon: chevron-down;"></span></a>
+                    <div class="uk-navbar-dropdown uk-background-secondary" uk-dropdown="mode: click">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-button uk-button-text uk-text-capitalize"><a href="cmb.html" class="uk-text-left">Cara Meminjam Buku</a></li><br>
+                            <li class="uk-button uk-button-text uk-text-capitalize"><a href="jadwal.html" >Jadwal Pepustakaan</a></li><br>
+                        </ul>
+                    </div>
+                </li>
+    
+                <li class="uk-button-text"><a class="uk-text-danger" href="https://www.instagram.com/sahabatperpusalki/">Sahabat Perpus</a></li>
+    
+                
+    
+                    </ul>
+        </div>
+    </div>
+    <!-- SideBar Ends -->    
+    <section class="uk-section uk-margin-xlarge-left uk-margin-xlarge-right">
+        <h2 class="uk-text-bold">Cara Meminjam Buku</h2>
+        <p>
+            1. Ambil buku yang ingin kalian pinjam <br>
+            2. Konfirmasi ke bu tursi <br>
+            3. List nama, kelas, dan buku yang dipinjam <br>
+            4. Batas peminjamannya 1 minggu
+        </p>
+    </section>
 </body>
 </html>
